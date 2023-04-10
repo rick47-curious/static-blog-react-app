@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## The Static site is live at : https://anuplab-pets-blog.onrender.com
+
+## Fake api used for blog posts was used from https://dummyapi.io/
+
 ## Available Scripts
 
 In the project directory, you can run:
