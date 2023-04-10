@@ -1,0 +1,59 @@
+/* Below for Navbar style elements */
+.bgColor{
+    background-color: rgb(199, 154, 241);
+}
+
+.nav-item > *{
+    color:white;
+}
+
+/* Below for the SinglePost style elements*/
+.post-container{
+    width:25vw;
+    height: 27rem;
+    border-radius:1.2rem;
+    margin:1.5rem;
+    background-color: white;
+}
+
+.post-image{
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+    width:100%;
+    min-height: 15rem;
+    max-height:15rem;
+}
+
+.specialContainer{
+    display:flex;
+    justify-content: space-between;
+}
+.ownertitle{
+    width:1.5rem;
+}
+
+.post-text{
+    text-overflow: ellipsis;
+}
+
+.owner-name{
+    text-transform: uppercase;
+}
+
+@media(max-width:830px){
+    .post-container{
+        width:50vw;
+    }
+}
+
+@media(max-width:600px){
+    .post-container{
+        width:50vw;
+    }
+}
+
+@media(max-width:500px){
+    .post-container{
+        width:50vw;
+    }
+}

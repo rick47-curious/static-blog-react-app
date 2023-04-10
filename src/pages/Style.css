@@ -1,0 +1,62 @@
+/* HomePage style elements below */
+.homeContainer{
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(172, 168, 168);
+}
+
+.main-container{
+    width:40rem;
+    margin:5rem auto;
+}
+
+.home-footer{
+    width: 100vw;
+    height:3rem;
+    background-color: rgb(230, 225, 225);
+}
+.margin-center{
+    width:18rem;
+    margin:0 auto;
+}
+/* Posts page Style elements */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 0.5rem; /* gap between grid items */
+    background-color:  rgb(172, 168, 168);
+}
+
+@media(max-width:830px){
+    .grid-container{
+        margin:0 10rem;
+        display:flex;
+        flex-direction: column;
+    }
+    .main-container{
+        width:15rem;
+    }
+    .margin-center{
+        width:18rem;
+        margin:0 auto;
+    }
+
+}
+
+@media(max-width:600px){
+    .grid-container{
+        margin:0 8rem;
+       
+    }
+    .margin-center{
+        width:18rem;
+        margin:0 auto;
+    }
+
+}
+@media(max-width:500px){
+    .grid-container{
+        margin:0 5rem;
+       
+    }
+}
